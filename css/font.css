@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?o595lp');
+  src:  url('../fonts/icomoon.eot?o595lp#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?o595lp') format('truetype'),
+    url('../fonts/icomoon.woff?o595lp') format('woff'),
+    url('../fonts/icomoon.svg?o595lp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check:before {
+  content: "\f00c";
+}
+.icon-home:before {
+  content: "\f015";
+}
+.icon-chevron-left:before {
+  content: "\f053";
+}
+.icon-chevron-right:before {
+  content: "\f054";
+}
+.icon-facebook-square:before {
+  content: "\f082";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-envelope:before {
+  content: "\f0e0";
+}
+.icon-youtube-play:before {
+  content: "\f16a";
+}
+.icon-instagram:before {
+  content: "\f16d";
+}
+.icon-sun-o:before {
+  content: "\f185";
+}
+.icon-automobile:before {
+  content: "\f1b9";
+}
+.icon-car:before {
+  content: "\f1b9";
+}
+.icon-bicycle:before {
+  content: "\f206";
+}
+.icon-glass2:before {
+  content: "\e9a1";
+}
+.icon-spoon-knife:before {
+  content: "\e9a3";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}

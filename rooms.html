@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<title>Holel</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header-top">
+				<div class="logo">
+					LOGO
+				</div>
+				<div class="header-btn">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+			<div class="header-content">
+				<h1 class="header-content__title">
+					Rooms
+				</h1>
+				
+				
+				<a href="#" class="header-content__btn">
+					Book right now
+				</a>
+			
+			</div>
+		</div>
+		<nav class="menu">
+			<div class="container container-menu">
+				<div class="close-btn">
+					
+				</div>
+				<div class="menu__list">
+					<ul>
+						<li><a href="index.html">Main</a></li>
+						<li><a href="about-us.html">About us</a></li>
+						<li><a href="rooms.html">Rooms</a></li>
+						<li><a href="service.html">Services</a></li>
+						<li><a href="restaurant.html">Restaurant</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li class = "sign-in"><a href="#sign" rel="modal:open">Sign-in</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	
+
+
+		<section class="checking hidden ">
+		<div class="container">
+			<form action="">
+				<div class="checking__row">
+					<div class="checking__item">
+						<div class="checking__text">
+							Date
+						</div>
+					 	<input type="text" name="start-date" >
+					</div>
+					<div class="checking__item">
+						<div class="checking__text">
+							Date
+						</div>
+					 	<input type="text" name="end-date">
+					</div>
+					<div class="checking__item select">
+						<div class="checking__text pd-b">
+							Adult
+						</div>
+					 	<select name="" id="">
+					 		<option value="">1</option>
+					 		<option value="">2</option>
+					 		<option value="">3</option>
+					 		<option value="">4</option>
+					 	</select>
+					</div>
+					<div class="checking__item select">
+						<div class="checking__text pd-b">
+							Children
+						</div>
+					 	<select name="" id="">
+					 		<option value="">1</option>
+					 		<option value="">2</option>
+					 		<option value="">3</option>
+					 		<option value="">4</option>
+					 	</select>
+					</div><div class="checking__item check-button">
+						
+					 	<a href="#" class = "btn cheching-btn">Check availability</a>
+					</div>
+					
+				</div>
+			</form>
+		</div>
+	</section>
+	</header>
+
+	<section class="slider-top">
+		<div class="slider">
+			<div class="slider__item" style = "background-image: url(images/header1.jpg);"></div>
+			<div class="slider__item" style = "background-image: url(images/header2.jpg);"></div>
+			<div class="slider__item" style = "background-image: url(images/header3.jpg);"></div>
+		</div>
+	</section>
+	
+
+	<section class="rooms">
+		<div class="container">
+			<!-- <div class="rooms__inner"> -->
+				<h1>Rooms & Suites</h1>
+				<div class="row">
+					<div class="column room__item">
+						<img src="images/guest-room.jpg" alt="">
+						<div class="room__text">
+							<h3>Double Room</h3>
+							<div class="room__text__title">
+								<sup>&#36;</sup><span>525</span><sub>/per night</sub>
+							</div>
+							<div class="room__item__text">
+								<span>Adults:</span> 1
+							</div>
+							<div class="room__item__text">
+								<span>Categories:</span> Single
+							</div>
+							<div class="room__item__text">
+								<span>Facilities:</span> Closet with hangers, HD flat-screen TV, Telephone
+							</div>
+							<div class="room__item__text">
+								<span>Size:</span> 20m<sup>2</sup>
+							</div>
+							<div class="room__item__text">
+								<span>Bed Type:</span> One bed
+							</div>
+							<a class = "btn room__item__btn" href="">Book it now</a>
+						</div>
+					
+					</div>
+					<div class="column room__item">
+						<img src="images/suite.jpg" alt="">
+							<div class="room__text">
+							<h3>Double Room</h3>
+							<div class="room__text__title">
+								<sup>&#36;</sup><span>525</span><sub>/per night</sub>
+							</div>
+							<div class="room__item__text">
+								<span>Adults:</span> 1
+							</div>
+							<div class="room__item__text">
+								<span>Categories:</span> Single
+							</div>
+							<div class="room__item__text">
+								<span>Facilities:</span> Closet with hangers, HD flat-screen TV, Telephone
+							</div>
+							<div class="room__item__text">
+								<span>Size:</span> 20m<sup>2</sup>
+							</div>
+							<div class="room__item__text">
+								<span>Bed Type:</span> One bed
+							</div>
+							<a class = "btn room__item__btn" href="">Book it now</a>
+						</div>
+					</div>
+					<div class="column room__item">
+						<img src="images/guest-room (1).jpg" alt="">
+							<div class="room__text">
+							<h3>Double Room</h3>
+							<div class="room__text__title">
+								<sup>&#36;</sup><span>525</span><sub>/per night</sub>
+							</div>
+							<div class="room__item__text">
+								<span>Adults:</span> 1
+							</div>
+							<div class="room__item__text">
+								<span>Categories:</span> Single
+							</div>
+							<div class="room__item__text">
+								<span>Facilities:</span> Closet with hangers, HD flat-screen TV, Telephone
+							</div>
+							<div class="room__item__text">
+								<span>Size:</span> 20m<sup>2</sup>
+							</div>
+							<div class="room__item__text">
+								<span>Bed Type:</span> One bed
+							</div>
+							<a class = "btn room__item__btn" href="">Book it now</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column room__item">
+						<img src="images/guest-room.jpg" alt="">
+						<div class="room__text">
+							<h3>Double Room</h3>
+							<div class="room__text__title">
+								<sup>&#36;</sup><span>525</span><sub>/per night</sub>
+							</div>
+							<div class="room__item__text">
+								<span>Adults:</span> 1
+							</div>
+							<div class="room__item__text">
+								<span>Categories:</span> Single
+							</div>
+							<div class="room__item__text">
+								<span>Facilities:</span> Closet with hangers, HD flat-screen TV, Telephone
+							</div>
+							<div class="room__item__text">
+								<span>Size:</span> 20m<sup>2</sup>
+							</div>
+							<div class="room__item__text">
+								<span>Bed Type:</span> One bed
+							</div>
+							<a class = "btn room__item__btn" href="">Book it now</a>
+						</div>
+					
+					</div>
+					<div class="column room__item">
+						<img src="images/suite.jpg" alt="">
+							<div class="room__text">
+							<h3>Double Room</h3>
+							<div class="room__text__title">
+								<sup>&#36;</sup><span>525</span><sub>/per night</sub>
+							</div>
+							<div class="room__item__text">
+								<span>Adults:</span> 1
+							</div>
+							<div class="room__item__text">
+								<span>Categories:</span> Single
+							</div>
+							<div class="room__item__text">
+								<span>Facilities:</span> Closet with hangers, HD flat-screen TV, Telephone
+							</div>
+							<div class="room__item__text">
+								<span>Size:</span> 20m<sup>2</sup>
+							</div>
+							<div class="room__item__text">
+								<span>Bed Type:</span> One bed
+							</div>
+							<a class = "btn room__item__btn" href="">Book it now</a>
+						</div>
+					</div>
+					<div class="column room__item">
+						<img src="images/guest-room (1).jpg" alt="">
+							<div class="room__text">
+							<h3>Double Room</h3>
+							<div class="room__text__title">
+								<sup>&#36;</sup><span>525</span><sub>/per night</sub>
+							</div>
+							<div class="room__item__text">
+								<span>Adults:</span> 1
+							</div>
+							<div class="room__item__text">
+								<span>Categories:</span> Single
+							</div>
+							<div class="room__item__text">
+								<span>Facilities:</span> Closet with hangers, HD flat-screen TV, Telephone
+							</div>
+							<div class="room__item__text">
+								<span>Size:</span> 20m<sup>2</sup>
+							</div>
+							<div class="room__item__text">
+								<span>Bed Type:</span> One bed
+							</div>
+							<a class = "btn room__item__btn" href="">Book it now</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column room__item">
+						<img src="images/guest-room.jpg" alt="">
+						<div class="room__text">
+							<h3>Double Room</h3>
+							<div class="room__text__title">
+								<sup>&#36;</sup><span>525</span><sub>/per night</sub>
+							</div>
+							<div class="room__item__text">
+								<span>Adults:</span> 1
+							</div>
+							<div class="room__item__text">
+								<span>Categories:</span> Single
+							</div>
+							<div class="room__item__text">
+								<span>Facilities:</span> Closet with hangers, HD flat-screen TV, Telephone
+							</div>
+							<div class="room__item__text">
+								<span>Size:</span> 20m<sup>2</sup>
+							</div>
+							<div class="room__item__text">
+								<span>Bed Type:</span> One bed
+							</div>
+							<a class = "btn room__item__btn" href="">Book it now</a>
+						</div>
+					
+					</div>
+					<div class="column room__item">
+						<img src="images/suite.jpg" alt="">
+							<div class="room__text">
+							<h3>Double Room</h3>
+							<div class="room__text__title">
+								<sup>&#36;</sup><span>525</span><sub>/per night</sub>
+							</div>
+							<div class="room__item__text">
+								<span>Adults:</span> 1
+							</div>
+							<div class="room__item__text">
+								<span>Categories:</span> Single
+							</div>
+							<div class="room__item__text">
+								<span>Facilities:</span> Closet with hangers, HD flat-screen TV, Telephone
+							</div>
+							<div class="room__item__text">
+								<span>Size:</span> 20m<sup>2</sup>
+							</div>
+							<div class="room__item__text">
+								<span>Bed Type:</span> One bed
+							</div>
+							<a class = "btn room__item__btn" href="">Book it now</a>
+						</div>
+					</div>
+					<div class="column room__item">
+						<img src="images/guest-room (1).jpg" alt="">
+							<div class="room__text">
+							<h3>Double Room</h3>
+							<div class="room__text__title">
+								<sup>&#36;</sup><span>525</span><sub>/per night</sub>
+							</div>
+							<div class="room__item__text">
+								<span>Adults:</span> 1
+							</div>
+							<div class="room__item__text">
+								<span>Categories:</span> Single
+							</div>
+							<div class="room__item__text">
+								<span>Facilities:</span> Closet with hangers, HD flat-screen TV, Telephone
+							</div>
+							<div class="room__item__text">
+								<span>Size:</span> 20m<sup>2</sup>
+							</div>
+							<div class="room__item__text">
+								<span>Bed Type:</span> One bed
+							</div>
+							<a class = "btn room__item__btn" href="">Book it now</a>
+						</div>
+					</div>
+				</div>
+			<!-- </div> -->
+		</div>	
+	</section>
+
+	<section class="img-bg img-bg-room"></section>
+
+	<section class="reviews">
+		<div class="container">
+			<h1>Guest Reviews</h1>
+			<div class="row">
+				<div class="column from-top animated reviews__item">
+					<div class="inner-row">
+						<div class="inner-column">
+							<img src="images/person_1.jpg" alt="">
+						</div>
+						<div class="inner-column">
+							<div class="reviews__title">Martin Newmansfield</div>
+							
+						</div>
+					</div>
+					<div class="reviews__text">” Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid. Atque dolore esse veritatis iusto eaque perferendis non dolorem fugiat voluptatibus vitae error ad itaque inventore accusantium tempore dolores sunt. “</div>
+				</div>
+				<div class="column from-top animated reviews__item">
+					<div class="inner-row">
+						<div class="inner-column">
+							<img src="images/person_1.jpg" alt="">
+						</div>
+						<div class="inner-column">
+							<div class="reviews__title">Martin Newmansfield</div>
+							
+						</div>
+					</div>
+					<div class="reviews__text">” Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid. Atque dolore esse veritatis iusto eaque perferendis non dolorem fugiat voluptatibus vitae error ad itaque inventore accusantium tempore dolores sunt. “</div>
+				</div>
+				<div class="column from-top animated reviews__item">
+					<div class="inner-row">
+						<div class="inner-column">
+							<img src="images/person_1.jpg" alt="">
+						</div>
+						<div class="inner-column">
+							<div class="reviews__title">Martin Newmansfield</div>
+							
+						</div>
+					</div>
+					<div class="reviews__text">” Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid. Atque dolore esse veritatis iusto eaque perferendis non dolorem fugiat voluptatibus vitae error ad itaque inventore accusantium tempore dolores sunt. “</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="row ">
+					<div class="column footer-column">
+						<h3>Navigation</h3>
+						
+						<a class="footer-top__text" href="">About us</a>
+						<a class="footer-top__text" href="">Rooms</a>
+						<a class="footer-top__text" href="">Contacts</a>
+						<a class="footer-top__text" href="">Restaurant</a>
+	
+					</div>
+					<div class="column footer-column">
+						<h3>Contact us</h3>
+						<div class="footer-top__text">
+							+380 98 761 54 32
+						</div>
+						<div class="footer-top__text">
+							info.colorlib@gmail.com
+						</div>
+						<div class="footer-top__text">
+							856 Cordia Extension Apt. 356, Lake,
+						</div>
+						<div class="footer-top__text">
+							United State
+						</div>
+					</div>
+					
+					<div class="column footer-column ">
+						<h3>Social networks</h3>
+						<div class="social-networks">
+							<a href="" class="footer-top__insta"></a>
+							
+							<a href="" class="footer-top__facebook"></a>	
+							
+							<a href="" class="footer-top__youtube"></a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>	
+		<hr>
+		<div class="footer-copyrighter">
+			Copyrighter
+		</div>
+		
+	</footer>
+	<div id="sign" class="modal">
+		<h3>Sign in</h3>
+		<form action="">
+			<label for="email">Input email</label>
+			<input id="email" type="email" >
+			<label for="password">Input password</label>
+			<input id="password" type="password">
+			<a href="#" class="sign-btn btn">Sign in</a>
+		</form>
+		<div class="sign-up">
+			<small><a href="#">I dont have a profile. Sign up.</a></small>
+		</div>
+	 	
+	</div>	
+		<script src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+	
+</body>
+</html>
